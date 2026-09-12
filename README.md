@@ -2,49 +2,67 @@
 
 
 
-# [Project Name] 🎯
+# Wiper For Glasses 🎯
+Basic Details
+Team Name: Pazham Pori
+Team Members
+Team Lead: Sreehari C - CETKR
 
+Member 2: Pranav Das - CETKR
 
-## Basic Details
-### Team Name: [Name]
+# Project Description
+An automated, windshield-style motorized wiper system built directly onto a pair of eyeglasses, controlled wirelessly via an ESP32 web server to keep your lenses crystal clear from imaginary raindrops.
 
+# The Problem (that doesn't exist)
+Walking outside and having your glasses get smudged or rained on requires the immense physical labor of taking them off and wiping them with a microfiber cloth like a caveman. Furthermore, traditional glasses lack high-torque mechanical sweeping blades.
 
-### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+# The Solution (that nobody asked for)
+We strapped two micro-servos and miniature wiper blades directly onto a pair of spectacles and hooked them up to an ESP32 access point. Now, you can wipe your lenses with the touch of a button on a web interface—ensuring maximum neck strain and zero visibility while operational!
 
-### Project Description
-[2-3 lines about what your project does]
-
-### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
-
-### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
-
-## Technical Details
-### Technologies/Components Used
+Technical Details
+Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+
+C++ (Arduino IDE)
+
+ESP32 WebServer & WiFi Libraries
+
+ESP32Servo Library
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
-### Implementation
+ESP32 NodeMCU Development Board
+
+2x Micro Servos (SG90)
+
+Miniature Wiper Blades / Attachments
+
+External Power Source / Battery
+
+Connecting wires & Spectacle frame
+
+Implementation
 For Software:
-# Installation
-[commands]
 
-# Run
-[commands]
+Installation
+Install the Arduino IDE.
 
-### Project Documentation
+Add the ESP32 board package to your Arduino IDE.
+
+Install the ESP32Servo library via the Library Manager.
+
+Upload the provided code to your ESP32 board.
+
+Run
+Power up the ESP32.
+
+Connect your phone or computer to the Wi-Fi network: ESP32-Servo (Password: 12345678).
+
+Open a browser and navigate to http://192.168.4.1.
+
+Click START to trigger the automated wiper sequence or STOP to halt it.
+
+Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
@@ -57,41 +75,23 @@ For Software:
 ![Screenshot3](img3.jpg)
 *Add caption explaining what this shows*
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
 
 # Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+![Circuit](sc.png)
 
 # Build Photos
-![Components](Add photo of your components here)
+![Components](b.jpg)
 *List out all components shown*
 
-![Build](Add photos of build process here)
+![Build](b1.jpg)
 *Explain the build steps*
 
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
+![Add your demo video link here](vd.mp4)
 *Explain what the video demonstrates*
 
-# Additional Demos
-[Add any extra demo materials/links]
-
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
